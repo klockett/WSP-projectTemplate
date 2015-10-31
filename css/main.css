@@ -5,6 +5,45 @@
 
 /* HEADER ============================== */
 
+header, nav, section, footer, figure, figcaption {
+    display: block;
+
+}
+
+header {
+    width: 100%;
+    height: auto;
+
+
+    margin: auto;
+    display: block;
+
+
+}
+
+
+header img {
+    max-width: 100%;
+    border: 1px solid #000000;
+
+
+
+}
+body{
+    max-width: 100%;
+    text-align: center;
+    background-color: #000000;
+}
+#container {
+
+    width: 80%;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: white;
+}
+
+
+
 /* ABOUT ============================== */
 
 /* COMPONENTS ============================== */
