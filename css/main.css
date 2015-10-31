@@ -10,6 +10,8 @@ header, nav, section, footer, figure, figcaption {
 
 }
 
+
+
 header {
     width: 100%;
     height: auto;
@@ -31,7 +33,6 @@ header img {
 }
 body{
     max-width: 100%;
-    text-align: center;
     background-color: #000000;
 }
 #container {
@@ -46,4 +47,68 @@ body{
 
 /* ABOUT ============================== */
 
+h1 {
+    font-size: 2em;
+    text-align: center;
+
+}
+.about{
+    border: 1px solid #000000;
+    border-radius: 200px 200px 200px 200px;
+    margin: 10px auto;
+    padding: 100px;
+
+
+
+}
 /* COMPONENTS ============================== */
+
+h2 {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+    padding-top: 1%;
+}
+
+.comp1{
+
+    margin: 20px auto 20px auto;
+
+
+}
+
+.component2{
+
+    margin: 20px auto 20px auto;
+
+
+}
+.component3{
+
+    margin: 20px auto 20px auto;
+
+
+}
+
+.component4{
+
+    margin: 20px auto 20px auto;
+
+}
+.component5{
+
+    margin: 20px auto 20px auto;
+
+}
+
+/* Footer========================= */
+footer {
+    clear: both;
+    color: #ffffff;
+    background-color: grey;
+    height: 40px;
+    text-align: center;
+    display: block;
+
+
+}
