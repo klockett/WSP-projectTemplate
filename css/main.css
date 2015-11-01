@@ -33,7 +33,13 @@ header img {
 }
 body{
     max-width: 100%;
-    background-image: url("../images/bgwall.jpg");
+    /*background-image: url("../images/bgwall.jpg");*/
+
+    background-image: url('http://dl.glitter-graphics.net/pub/248/248901wm95evm9ym.gif');
+    background-attachment: fixed;
+    background-repeat: repeat;
+
+
 
 }
 #container {
