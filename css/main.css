@@ -133,7 +133,17 @@ table {
 
 
 }
+#featured{
+    border: 10px solid red;
 
+}
+button{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+    background-color: red;
+    margin-left: 57px;
+}
 /* Footer========================= */
 footer {
     clear: both;
