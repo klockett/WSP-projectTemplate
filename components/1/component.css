@@ -3,6 +3,7 @@
 ============================================================*/
 
 
+/
 /* HEADER ============================== */
 
 header, nav, section, footer, figure, figcaption {
@@ -10,7 +11,27 @@ header, nav, section, footer, figure, figcaption {
 
 }
 
+nav  li  {
+    line-height: 49px;
+    color: #000000;
+    padding: 0 10px 0 5px;
+    height: auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    display:inline-block;
 
+
+
+}
+
+nav ul {
+    padding-left: 5%;
+    border: 1px solid;
+    padding-top: 2%;
+    margin-top: -1%;
+}
 
 header {
     width: 100%;
@@ -159,3 +180,6 @@ footer {
     width: 79.8%;
     position: absolute;
 
+
+
+}
