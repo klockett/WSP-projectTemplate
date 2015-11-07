@@ -6,7 +6,7 @@
 /
 /* HEADER ============================== */
 
-header, nav, section, footer, figure, figcaption {
+ header, nav, section, footer, figure, figcaption {
     display: block;
 
 }
@@ -33,16 +33,15 @@ nav ul {
     margin-top: -1%;
 }
 
-header {
+header  {
     width: 100%;
     height: auto;
+    position: relative;
 
-
-    margin: auto;
-    display: block;
 
 
 }
+
 
 
 header img {
@@ -59,17 +58,35 @@ body{
     background-image: url('http://dl.glitter-graphics.net/pub/248/248901wm95evm9ym.gif');
     background-attachment: fixed;
     background-repeat: repeat;
+    margin: 0;
+}
+    div#slider {
+        overflow: hidden;
+    }
+    div#slider figure img {
+        width: 20%; float: left;
 
 
 
 }
-#container {
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
+}
+
+#container  {
 
     width: 80%;
     margin: 20px auto 20px auto;
     border: 2px solid #000000;
     background-color: white;
     box-shadow: #ffffff;
+
 }
 
 section{
@@ -182,4 +199,17 @@ footer {
 
 
 
+}
+
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
 }

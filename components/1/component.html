@@ -11,14 +11,22 @@
 
 
 
+
 </head>
 
 <body>
 <div id="container">
     <!-- Header -->
     <header>
-        <img src="../../images/KLOCK.png"
-
+        <div id="slider">
+            <figure>
+                <img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+                <img src="http://demosthenes.info/assets/images/taj-mahal.jpg" alt="">
+                <img src="http://demosthenes.info/assets/images/ibiza.jpg" alt="">
+                <img src="http://demosthenes.info/assets/images/ankor-wat.jpg" alt="">
+                <img src="http://demosthenes.info/assets/images/austin-fireworks.jpg" alt="">
+            </figure>
+        </div>
 
     </header>
     <nav>
@@ -46,11 +54,21 @@
 
     </footer>
     </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/jquery-ui.min.js"></script>
 <script src="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
-
+<<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.flexslider').flexslider({
+            animation: 'fade',
+            controlsContainer: '.flexslider'
+        });
+    });
+</script>
 <script src="js/main.js"></script>
+<script src="responsiveslides.min.js"></script>
+
  </body>
 </html>
 	<!-- Component -->
