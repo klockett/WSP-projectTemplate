@@ -7,8 +7,10 @@
 
 
 //alert("don't bother");
+$().load("rslides");
     $(function() {
         $(".rslides").responsiveSlides();
+
     });
 
 //});
