@@ -6,7 +6,7 @@
 //$(document).ready(function() {
 
 
-//alert("don't bother");
+ alert("Please use Chrome");
     $(window).load(function() {
         $(".rslides").responsiveSlides();
 
