@@ -7,7 +7,7 @@
 
 
 //alert("don't bother");
-$().load("rslides");
+$().load(".rslides");
     $(function() {
         $(".rslides").responsiveSlides();
 
