@@ -3,7 +3,7 @@
  */
 
 
-$(document).ready(function() {
+//$(document).ready(function() {
 
 
 //alert("don't bother");
@@ -11,5 +11,5 @@ $(document).ready(function() {
         $(".rslides").responsiveSlides();
     });
 
-});
+//});
 
