@@ -7,9 +7,11 @@
 
 
  alert("Please use Chrome");
-    $(window).load(function() {
-        $(".rslides").responsiveSlides();
+ //  $(window).load(function() {
+   //     $(".rslides").responsiveSlides();
 
 
-    });
+  //  });
+
+
 
