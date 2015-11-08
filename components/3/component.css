@@ -367,9 +367,9 @@ table {
 button{
     font-size: 1.2em;
     font-weight: bold;
-    font-style: italic;
-    background-color: red;
-    margin-left: 57px;
+    font-style:normal;
+    background-color: silver;
+    margin: 0;
 }
 /* Footer========================= */
 footer {
