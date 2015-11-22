@@ -83,11 +83,9 @@ h2:nth-child(1), h2:nth-child(3) {
 }
 video {
     background: #333 none no-repeat scroll 0 0 / cover ;
-    left: 50%;
     min-height: auto;
     min-width: auto;
     position: fixed;
-    top: 50%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -100;
     max-width: 100%;
